@@ -1,22 +1,12 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-
-
-# In[2]:
 
 
 X=pd.read_csv('./training data/hard_work(challenge)/Linear_X_Train.csv')#always location is relative to the current directory
 Y=pd.read_csv('./training data/hard_work(challenge)/Linear_Y_Train.csv')
 
 
-# In[3]:
 
 
 Y.head()
